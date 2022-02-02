@@ -46,5 +46,13 @@ public static class AnimMath
         return offset;
     }
 
+    public static Vector3 SpotOnEllipseXZ(float radius, float xMod, float zMod, float currentAngle, float speed)
+    {
+        Vector3 offset = new Vector3();
+        offset.x = xMod * Mathf.Sin(currentAngle * speed) * radius;
+        offset.z = zMod * Mathf.Cos(currentAngle * speed) * radius;
+        return offset;
+    }
+
 
 }

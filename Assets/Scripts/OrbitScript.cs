@@ -11,6 +11,10 @@ public class OrbitScript : MonoBehaviour
     private float roty = 0;
     public float direction = 1;
 
+    public float xMod = 1;
+
+    public float zMod = 1;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +24,7 @@ public class OrbitScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 offset = AnimMath.SpotOnCircleXZ(radius, age, speed);
+        Vector3 offset = AnimMath.SpotOnEllipseXZ(radius, xMod, zMod, age, speed);
         transform.position = target.transform.position + offset;
         age += Time.deltaTime * direction;
         roty += Time.deltaTime * speed;
