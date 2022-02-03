@@ -64,7 +64,7 @@ public class RigScript : MonoBehaviour
 
         Quaternion targetRotation = Quaternion.Euler(pitch, yaw, roll);
 
-        transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, 0.01f); // EASE
+        transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, 0.05f); // EASE
     }
     void lookAtPlanet()
     {

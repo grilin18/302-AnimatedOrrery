@@ -1899,6 +1899,7 @@ MonoBehaviour:
   Planet3: {fileID: 1509035319}
   Planet4: {fileID: 441534152}
   Planet5: {fileID: 769324578}
+  target: {x: 0, y: 0, z: 0}
   lookAtValue: 0
   doOnce: 1
 --- !u!4 &728847443
