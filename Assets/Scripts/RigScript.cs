@@ -53,7 +53,7 @@ public class RigScript : MonoBehaviour
         float scroll = Input.GetAxisRaw("Mouse ScrollWheel");
 
         targetDollyDis -= scroll * mouseScrollMult;
-        targetDollyDis = Mathf.Clamp(targetDollyDis, 4, 30);
+        targetDollyDis = Mathf.Clamp(targetDollyDis, 4, 60);
 
         dollyDis = AnimMath.Slide(dollyDis, targetDollyDis, .05f); // EASE
 
