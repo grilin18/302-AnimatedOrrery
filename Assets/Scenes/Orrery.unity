@@ -1153,12 +1153,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1374902502}
-  radius: 47
+  radius: 55
   speed: 0.34
   direction: 1
   xMod: 1.75
   zMod: 1
-  pathResolution: 32
+  pathResolution: 80
 --- !u!135 &441534154
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1951,12 +1951,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1374902502}
-  radius: 62
+  radius: 70
   speed: 0.2
   direction: 1
   xMod: 2
   zMod: 1
-  pathResolution: 32
+  pathResolution: 80
 --- !u!135 &769324580
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2173,7 +2173,7 @@ MonoBehaviour:
   direction: 1
   xMod: 1.5
   zMod: 0.8
-  pathResolution: 32
+  pathResolution: 50
 --- !u!135 &849418436
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4168,12 +4168,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1374902502}
-  radius: 36
+  radius: 40
   speed: 0.67
   direction: 1
   xMod: 1.5
   zMod: 1
-  pathResolution: 32
+  pathResolution: 64
 --- !u!135 &1509035321
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4390,7 +4390,7 @@ MonoBehaviour:
   direction: 1
   xMod: 1.25
   zMod: 0.75
-  pathResolution: 32
+  pathResolution: 40
 --- !u!135 &1527337882
 SphereCollider:
   m_ObjectHideFlags: 0
