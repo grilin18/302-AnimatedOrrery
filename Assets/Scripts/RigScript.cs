@@ -13,7 +13,7 @@ public class RigScript : MonoBehaviour
 
     public float mouseSensitivityY = 5;
     public float mouseSensitivityX = 5;
-    public float mouseScrollMult = 10;
+    public float mouseScrollMult = 50;
 
     public GameObject Sun;
     public GameObject Planet1;
@@ -35,7 +35,7 @@ public class RigScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         lookAtPlanet();
 
