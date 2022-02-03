@@ -238,7 +238,7 @@ MonoBehaviour:
   radius: 7
   speed: 1.27
   direction: 1
-  xMod: 1
+  xMod: 1.5
   zMod: 1
   pathResolution: 32
 --- !u!120 &19816884
@@ -261,7 +261,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: f388aa48de47adb4b8f536946ccc00d9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -293,7 +293,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.25157166
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -803,7 +803,7 @@ MonoBehaviour:
   radius: 9
   speed: 0.56
   direction: 1
-  xMod: 1
+  xMod: 1.5
   zMod: 1
   pathResolution: 32
 --- !u!120 &268006161
@@ -826,7 +826,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: f388aa48de47adb4b8f536946ccc00d9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -858,7 +858,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.25157166
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -1156,7 +1156,7 @@ MonoBehaviour:
   radius: 47
   speed: 0.34
   direction: 1
-  xMod: 1
+  xMod: 1.75
   zMod: 1
   pathResolution: 32
 --- !u!135 &441534154
@@ -1257,7 +1257,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: f388aa48de47adb4b8f536946ccc00d9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1289,7 +1289,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.25157166
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -1451,7 +1451,7 @@ MonoBehaviour:
   radius: 5
   speed: 1
   direction: 1
-  xMod: 1
+  xMod: 1.5
   zMod: 1
   pathResolution: 32
 --- !u!120 &604353896
@@ -1474,7 +1474,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: f388aa48de47adb4b8f536946ccc00d9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1506,7 +1506,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.25157166
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -1954,7 +1954,7 @@ MonoBehaviour:
   radius: 62
   speed: 0.2
   direction: 1
-  xMod: 1
+  xMod: 2
   zMod: 1
   pathResolution: 32
 --- !u!135 &769324580
@@ -2055,7 +2055,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: f388aa48de47adb4b8f536946ccc00d9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2087,7 +2087,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.25157166
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -2171,8 +2171,8 @@ MonoBehaviour:
   radius: 20
   speed: 0.8
   direction: 1
-  xMod: 1
-  zMod: 1
+  xMod: 1.5
+  zMod: 0.8
   pathResolution: 32
 --- !u!135 &849418436
 SphereCollider:
@@ -2272,7 +2272,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: f388aa48de47adb4b8f536946ccc00d9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2304,7 +2304,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.25157166
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -2466,7 +2466,7 @@ MonoBehaviour:
   radius: 5
   speed: 2
   direction: 1
-  xMod: 1
+  xMod: 1.5
   zMod: 1
   pathResolution: 32
 --- !u!120 &896473365
@@ -2489,7 +2489,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: f388aa48de47adb4b8f536946ccc00d9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2521,7 +2521,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.25157166
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -2861,7 +2861,7 @@ MonoBehaviour:
   radius: 5
   speed: 0.6
   direction: 1
-  xMod: 1
+  xMod: 1.5
   zMod: 1
   pathResolution: 32
 --- !u!120 &1062138238
@@ -2884,7 +2884,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: f388aa48de47adb4b8f536946ccc00d9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2916,7 +2916,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.25157166
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -3158,7 +3158,7 @@ MonoBehaviour:
   radius: 8
   speed: 1
   direction: 1
-  xMod: 1
+  xMod: 1.5
   zMod: 1
   pathResolution: 32
 --- !u!120 &1146632000
@@ -3181,7 +3181,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: f388aa48de47adb4b8f536946ccc00d9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3213,7 +3213,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.25157166
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -3451,7 +3451,7 @@ MonoBehaviour:
   radius: 12
   speed: 1.32
   direction: 1
-  xMod: 1
+  xMod: 1.5
   zMod: 1
   pathResolution: 32
 --- !u!120 &1298219435
@@ -3474,7 +3474,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: f388aa48de47adb4b8f536946ccc00d9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3506,7 +3506,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.25157166
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -4171,7 +4171,7 @@ MonoBehaviour:
   radius: 36
   speed: 0.67
   direction: 1
-  xMod: 1
+  xMod: 1.5
   zMod: 1
   pathResolution: 32
 --- !u!135 &1509035321
@@ -4272,7 +4272,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: f388aa48de47adb4b8f536946ccc00d9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4304,7 +4304,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.25157166
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -4388,8 +4388,8 @@ MonoBehaviour:
   radius: 10
   speed: 1
   direction: 1
-  xMod: 1
-  zMod: 1
+  xMod: 1.25
+  zMod: 0.75
   pathResolution: 32
 --- !u!135 &1527337882
 SphereCollider:
@@ -4489,7 +4489,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: f388aa48de47adb4b8f536946ccc00d9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4521,7 +4521,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.25157738
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -4683,7 +4683,7 @@ MonoBehaviour:
   radius: 6
   speed: 0.7
   direction: 1
-  xMod: 1
+  xMod: 1.5
   zMod: 1
   pathResolution: 32
 --- !u!120 &1538318811
@@ -4706,7 +4706,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: f388aa48de47adb4b8f536946ccc00d9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4738,7 +4738,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.25157166
         inSlope: 0
         outSlope: 0
         tangentMode: 0

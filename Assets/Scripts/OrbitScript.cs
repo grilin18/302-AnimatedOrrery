@@ -47,8 +47,8 @@ public class OrbitScript : MonoBehaviour
         Vector3[] pts = new Vector3[pathResolution];
 
         for (int i = 0; i < pts.Length; i++){
-            float x = radius * Mathf.Cos(i * 2 * Mathf.PI / pathResolution);
-            float z = radius * Mathf.Sin(i * 2 * Mathf.PI / pathResolution);
+            float x = radius * xMod * Mathf.Cos(i * 2 * Mathf.PI / pathResolution);
+            float z = radius * zMod * Mathf.Sin(i * 2 * Mathf.PI / pathResolution);
 
             Vector3 pt = new Vector3(x, 0, z) + target.transform.position;
             pts[i] = pt;
